@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "Claim Pulse",
+  "short_name": "Claim Pulse",
+  "version": "1.2.0",
+  "description": "See where your VA claims and reviews really stand, when they will likely be decided, and every deadline. Not affiliated with VA.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://api.va.gov/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Claim Pulse",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.va.gov/track-claims/*",
+        "https://www.va.gov/my-va/*",
+        "https://www.va.gov/claim-or-appeal-status/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
