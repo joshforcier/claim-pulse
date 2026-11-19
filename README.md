@@ -19,7 +19,7 @@
 
 Claim Pulse is waiting for Chrome Web Store approval. Until then, install it by hand in about 5 minutes:
 
-1. **Download** `claim-pulse-1.2.0.zip` from the [latest release](../../releases/latest) and unzip it. Keep the `claim-pulse` folder somewhere it can stay, like Documents. It should have `manifest.json` inside.
+1. **[Download claim-pulse-1.2.0.zip](https://github.com/joshforcier/claim-pulse/raw/main/download/claim-pulse-1.2.0.zip)** and unzip it. Keep the `claim-pulse` folder somewhere it can stay, like Documents. It should have `manifest.json` inside.
 
    ![The unzipped claim-pulse folder](docs/install/step1-folder.png)
 
