@@ -2,6 +2,8 @@
 
 **See where your VA claim really stands.** Claim Pulse is a free Chrome extension that shows the real step your claim is on (out of VA's 8), warns you when a claim gets sent back a step, estimates when it will likely be decided, and counts down your deadlines to ask for another review.
 
+**[Add to Chrome from the Chrome Web Store](https://chromewebstore.google.com/detail/claim-pulse/pjeaeopkjidicbfnaehcnibleklfefbf)** · free · updates automatically
+
 ![Claim Pulse home screen, shown with sample data](screenshots/screenshot-1.png)
 
 > Not affiliated with, endorsed by, or operated by the U.S. Department of Veterans Affairs. Made by [F4 Software](https://f4software.com).
@@ -17,37 +19,27 @@
 
 ## Install
 
-Claim Pulse is waiting for Chrome Web Store approval. Until then, install it by hand in about 5 minutes:
-
-1. **[Download claim-pulse-1.2.0.zip](https://github.com/joshforcier/claim-pulse/raw/main/download/claim-pulse-1.2.0.zip)** and unzip it. Keep the `claim-pulse` folder somewhere it can stay, like Documents. It should have `manifest.json` inside.
-
-   ![The unzipped claim-pulse folder](docs/install/step1-folder.png)
-
-2. **Open** `chrome://extensions` in Chrome.
-
-3. **Turn on Developer mode** (top-right switch).
-
-   ![Developer mode switch](docs/install/step3-developer-mode.png)
-
-4. **Click Load unpacked** and pick the `claim-pulse` folder (the one with manifest.json in it).
-
-   ![Load unpacked button](docs/install/step4-load-unpacked.png)
-
-5. **Check it's installed.** A Claim Pulse card appears, switched on.
-
-   ![Claim Pulse installed](docs/install/step5-installed.png)
-
-6. **Pin it.** Click the puzzle-piece icon next to the address bar, then the pin next to Claim Pulse.
+1. Open **[Claim Pulse in the Chrome Web Store](https://chromewebstore.google.com/detail/claim-pulse/pjeaeopkjidicbfnaehcnibleklfefbf)** and click **Add to Chrome**.
+2. Click the puzzle-piece icon next to the address bar, then the **pin** next to Claim Pulse.
 
    ![Pinning the extension](docs/install/step6-pin.png)
 
-7. **Sign in to VA.gov** the way you normally do, then click the Claim Pulse icon. Want to look first? Click **See an example with sample data first**.
+3. **Sign in to VA.gov** the way you normally do, then click the Claim Pulse icon. Want to look first? Click **See an example with sample data first**.
 
    ![Sign-in screen](docs/install/step7-sign-in.png)
 
-It also works in Microsoft Edge (`edge://extensions`) and Brave (`brave://extensions`).
+It also works in Microsoft Edge and Brave: open the same store link and click **Add to Chrome** (Edge will ask you to allow extensions from other stores first).
 
-**Updating:** replace the folder with the new version, then click the reload arrow on the Claim Pulse card at `chrome://extensions`.
+<details>
+<summary>Manual install (only if you can't use the Chrome Web Store)</summary>
+
+1. **[Download claim-pulse-1.2.0.zip](https://github.com/joshforcier/claim-pulse/raw/main/download/claim-pulse-1.2.0.zip)** and unzip it. Keep the `claim-pulse` folder somewhere it can stay. It should have `manifest.json` inside.
+2. Open `chrome://extensions` and turn on **Developer mode** (top-right switch).
+3. Click **Load unpacked** and pick the `claim-pulse` folder.
+
+A manual install doesn't update itself. If you installed this way before, remove it and add the store version so you get updates automatically.
+
+</details>
 
 ## Privacy
 
